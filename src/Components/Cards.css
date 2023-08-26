@@ -1,0 +1,69 @@
+.card-row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    
+    
+}
+  
+  .card {
+    /* border: 1px solid #edcbcb; */
+    padding: 20px;
+    flex: 1;
+    width: 480px;
+    height: 350px;
+    flex-shrink: 0;
+    background-color: #83C4FF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  #btn {
+    margin-top: 5%;
+    border-radius: 13.281px;
+    border: 1.771px solid #FFF;
+    padding: 13.281px 26.562px;
+ color: #FFF;
+ font-size: 17.708px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 183.688%; /* 32.527px */
+ text-transform: capitalize;
+ transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+  #btn:active {
+    background-color: #fff; /* Change to the color you want when the button is clicked */
+    color: #83C4FF; /* Change to the color you want when the button is clicked */
+    border-color: #83C4FF; /* Change to the color you want when the button is clicked */
+  }
+ 
+  
+  h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #FFF;
+font-family: Open Sans;
+font-size: 38.957px;
+font-style: normal;
+font-weight: 700;
+line-height: 125.688%; /* 48.963px */
+text-transform: capitalize;
+}
+
+p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #FFF;
+
+ font-size: 20px;
+ font-style: normal;
+  font-weight: 600;
+ line-height: 183.688%;
+ text-transform: capitalize;
+}
+  
+  
