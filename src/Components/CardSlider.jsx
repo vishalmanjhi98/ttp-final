@@ -35,31 +35,31 @@ const CardsContainerStyles = {
 
 const CardSlider = () => {
   const cardsData = [
-    { id: 1, title: 'CARD 1', content: 'Clark Kent', imgUrl: 'https://unsplash.it/200/200' },
-    { id: 2, title: 'CARD 2', content: 'Bruce Wayne', imgUrl: 'https://unsplash.it/201/200' },
-    { id: 3, title: 'CARD 3', content: 'Peter Parker', imgUrl: 'https://unsplash.it/200/201' },
-    { id: 4, title: 'CARD 4', content: 'Tony Stark', imgUrl: 'https://unsplash.it/201/201' },
-    { id: 5, title: 'CARD 5', content: 'Reed Richards', imgUrl: 'https://unsplash.it/202/200' },
-    { id: 6, title: 'CARD 6', content: 'Wade Wilson', imgUrl: 'https://unsplash.it/200/199' },
-    { id: 7, title: 'CARD 7', content: 'Peter Quill', imgUrl: 'https://unsplash.it/199/199' },
-    { id: 8, title: 'CARD 8', content: 'Steven Rogers', imgUrl: 'https://unsplash.it/199/200' },
-    { id: 9, title: 'CARD 9', content: 'Bruce Banner', imgUrl: 'https://unsplash.it/200/198' },
-    { id: 10, title: 'CARD 10', content: 'Vincent Strange', imgUrl: 'https://unsplash.it/198/199' }
+    { id: 1, title: 'MBBS', content: 'Dr.Kalpana Agarwal', imgUrl: 'https://www.kauveryhospital.com/doctorimage/recent/Dr.-N.-Suchitra2023-01-17-12:08:24pm.jpg' },
+    { id: 2, title: 'MBBS MD', content: 'Dr.Retish Rajan', imgUrl: 'https://www.woodlandshospital.in/images/doctor-img/Soutik-Panda-New1.jpg' },
+    { id: 3, title: 'BDS', content: 'Dr.Preeti Mukharji', imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sYmkJVDIarQxX09COpFNaBsaso8X2kYJzw&usqp=CAU' },
+    { id: 4, title: 'MBBS', content: 'Dr.Shreya Lalwani', imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYrjNjsKuFM4qf8-BXHFOxygZpBxP5nm7nwnq33Spap48ObUxUMauNnBD8g__dNFUfLV4&usqp=CAU' },
+    { id: 5, title: 'BAMS', content: 'Dr.Prerna', imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe-w-d6N7GnfHWnEpR7xMbAKCdCVkJiBLgrA_o0g1ta23fwRGW1nWjK232w9dxQBV0n8&usqp=CAU' },
+    { id: 6, title: 'BHMS', content: 'Dr.Wade Wilson', imgUrl: 'https://www.woodlandshospital.in/images/doctor-img/ravi-kant-saraogi.jpg' },
+    { id: 7, title: 'BDS', content: 'Dr.Peter Quill', imgUrl: 'https://images.unsplash.com/photo-1612349316228-5942a9b489c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNhbCUyMGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80' },
+    { id: 8, title: 'MBBS', content: 'Dr.Steven Rogers', imgUrl: 'https://guthospital.in/assets/images/team/Dr-Arpit-Bhargava.jpg' },
+    { id: 9, title: 'Gynocologist', content: 'Dr.Neha Kulkarni', imgUrl: 'https://kangaroocareindia.com/static/media/dr-thrupthi-new.0faf7b7fc188451aa9ce.JPG' },
+    { id: 10, title: 'MD', content: 'Dr.Sonam Sukla', imgUrl: 'https://www.kauveryhospital.com/doctorimage/recent/Dr.-N.-Suchitra2023-01-17-12:08:24pm.jpg' }
     // ... (other card data)
   ];
 
   return (
     <div style={ContainerStyles}>
       <div style={{ textAlign: 'center' }}>
-        <h1>React Card Slider</h1>
+        <h1 style={{color:'#83C4FF'}}>------ Doctors for deal with critical situations ------</h1>
       </div>
       <div style={CardsContainerStyles}>
         {cardsData.map((card) => (
           <div key={card.id} style={{ ...CardStyles }} className="card">
             <img src={card.imgUrl} alt={card.alt || 'Image'} style={{ ...ImgStyles }} />
             <div className="card-content" style={{ padding: '1rem' }}>
-              <h2>{card.title}</h2>
-              <p>{card.content}</p>
+              <h2 style={{color:'black'}}>{card.title}</h2>
+              <p style={{color:'black'}} >{card.content}</p>
             </div>
           </div>
         ))}

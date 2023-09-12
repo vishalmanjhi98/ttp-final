@@ -1,0 +1,184 @@
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  height: 100%;
+  width: 80.88%;
+  top: 60.51%;
+  right: 9.56%;
+  bottom: -60.51%;
+  left: 9.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  height: 0.72%;
+  width: 32.88%;
+  top: 62.29%;
+  right: 33.67%;
+  bottom: 36.99%;
+  left: 33.45%;
+}
+.vector-icon2,
+.vector-icon3 {
+  height: 11.18%;
+  width: 100%;
+  top: 60.51%;
+  right: -9.56%;
+  bottom: 28.31%;
+  left: 9.56%;
+}
+.vector-icon3 {
+  height: 0.02%;
+  width: 32.67%;
+  top: 63.11%;
+  right: 33.67%;
+  bottom: 36.87%;
+  left: 33.67%;
+}
+.vector-icon4 {
+  height: 2.63%;
+  width: 35.28%;
+  top: 66.42%;
+  right: 16.17%;
+  bottom: 30.95%;
+  left: 48.55%;
+}
+.mask-group-icon,
+.vector-icon4,
+.vector-icon5 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon5 {
+  height: 89.63%;
+  width: 100%;
+  top: 1.92%;
+  right: 0;
+  bottom: 8.45%;
+  left: 0;
+  opacity: 0.1;
+}
+.mask-group-icon {
+  height: 100%;
+  width: 82.77%;
+  top: 0;
+  right: 10.18%;
+  bottom: 0;
+  left: 7.04%;
+}
+.group1 {
+  position: absolute;
+  height: 80.13%;
+  width: 82.47%;
+  top: 9.93%;
+  right: 7.47%;
+  bottom: 9.93%;
+  left: 10.06%;
+}
+.mask-group1,
+.vector-icon6 {
+  position: absolute;
+  height: 6.67%;
+  width: 28.7%;
+  top: 64.39%;
+  right: 55.2%;
+  bottom: 28.94%;
+  left: 16.1%;
+}
+.vector-icon6 {
+  height: 2.7%;
+  width: 35.87%;
+  top: 71.75%;
+  right: 45.73%;
+  bottom: 25.55%;
+  left: 18.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon7 {
+  height: 2.7%;
+  width: 33.84%;
+  top: 75.5%;
+  right: 47.8%;
+  bottom: 21.81%;
+  left: 18.36%;
+}
+.vector-icon10,
+.vector-icon11,
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon8 {
+  height: 4.94%;
+  width: 24.71%;
+  top: 71.89%;
+  right: 18.11%;
+  bottom: 23.17%;
+  left: 57.18%;
+  object-fit: cover;
+}
+.vector-icon10,
+.vector-icon11,
+.vector-icon9 {
+  height: 2.1%;
+  width: 36.06%;
+  top: 79.67%;
+  right: 20.28%;
+  bottom: 18.23%;
+  left: 43.66%;
+}
+.vector-icon10,
+.vector-icon11 {
+  height: 2.7%;
+  width: 36.17%;
+  top: 82.81%;
+  right: 20.09%;
+  bottom: 14.49%;
+  left: 43.74%;
+}
+.vector-icon11 {
+  height: 4.94%;
+  width: 23.46%;
+  top: 80.08%;
+  right: 59.14%;
+  bottom: 14.98%;
+  left: 17.4%;
+  object-fit: cover;
+}
+.group,
+.mask-group {
+  position: absolute;
+  height: 100%;
+  width: 123.63%;
+  top: 0;
+  right: -11.82%;
+  bottom: 0;
+  left: -11.82%;
+}
+.mask-group {
+  height: 346.85%;
+  width: 100%;
+  top: -209.87%;
+  right: 0;
+  bottom: -36.98%;
+  left: 0;
+}
+.frame {
+  position: relative;
+  width: 100%;
+  height: 1763px;
+  overflow: hidden;
+}

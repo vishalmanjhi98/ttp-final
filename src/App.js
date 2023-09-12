@@ -5,6 +5,10 @@ import Imageslider from './Components/Imageslider';
 import Navbar from './Components/Navbar';
 import CardSlider from './Components/CardSlider';
 import Services from './Components/Services';
+import Button2 from './Components/Button2';
+// import HospitalParagraph from './Components/HospitalParagraph';
+import Lastpage from './Components/Lastpage';
+import Footer from './Components/Assets/Footer';
 
 
 function App() {
@@ -15,7 +19,11 @@ function App() {
    <Button/>
    <Cards/>
    <CardSlider/>
+   <Button2/>
    <Services/>
+   {/* <HospitalParagraph/> */}
+   <Lastpage/>
+   <Footer/>
     </div>
   );
 }
